@@ -1,0 +1,50 @@
+\*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: linear-gradient(90deg,#a79090 0%, #6ea26e 80%);
+    background-image: url(https://images.adsttc.com/media/images/5f7d/fef2/63c0/170a/9100/0273/slideshow/Jiangnan_Photography.jpg?1602092773);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+ div{
+    margin-top: 200px;
+    margin-left: 350px;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 20px;
+    text-shadow: 2px 2px 0px rgba(238,48,48,0.61);
+    
+}
+form{
+    position: absolute;
+    margin-left: 450px;
+    background-color: transparent;
+    color: black;
+    margin-top: none;
+   
+}
+label{
+    display: block;
+    /* margin-left: 10px;
+    margin-top: 10px; */
+}
+
+button{
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(26deg,#0c00ff 0%, #00e9ff 80%);
+}
+
+input[type="text"],input[type="password"],input[type="email"]  {
+    height: 40px;
+    border-radius: 30px;
+    width: 160px;
+}
+ 

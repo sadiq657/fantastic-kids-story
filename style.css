@@ -1,0 +1,104 @@
+\*{
+   
+    margin: 0;
+    padding: 0;
+}
+
+.showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.video-1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.video-1 video{
+    height: 90vh;
+}
+    
+.content {
+    z-index: 1;
+}
+
+.content h3{
+    font-size: 50px;
+    color: #ff0000;
+}
+.content a{
+    font-size: 30px;
+    color: #00cc00;
+    justify-content: space-between;
+    text-decoration: none;
+ 
+}
+
+.content a:hover {
+    text-decoration: underline;
+    color: #944545;
+}
+
+
+/* Info */
+
+.Info {
+    display: flex;
+    position: absolute;
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 1100px;
+}
+
+/* info-1 */
+.Info-1{
+    display: flex;
+    position: absolute;
+    margin-top: 400px;
+    justify-content: space-between;
+    width: 1100px;
+    background: linear-gradient(322deg,#ff0000 0%, #00ff00 80%);
+    padding: 20px;
+}
+
+/* info-2 */
+.Info-2{
+    display: flex;
+    position: absolute;
+    margin-top: 1000px;
+}
+
+/* footer */
+footer{
+    margin-top: 1500px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+footer button{
+    padding: 20px;
+    width: 40%;
+    border-radius: 30px;
+    margin-top: 2px;
+    background-color: #00cc00;
+}
+
+footer button:hover {
+    color: #181616;
+    text-decoration: underline;
+    background-color: #ff0000;
+
+}
+
+
+
+
+
+
+
